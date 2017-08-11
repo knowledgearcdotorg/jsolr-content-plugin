@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>JSolr Content Plugin</name>
+        <description>A JSolr plugin for indexing/searching articles.</description>
+        <element>plg_jsolr_content</element>
+        <type>plugin</type>
+        <folder>jsolr</folder>
+        <version>3.0.0-alpha.2</version>
+        <client>site</client>
+        <infourl title="JSolr Content Plugin">https://github.com/knowledgearcdotorg/jsolr-content-plugin/releases/tag/3.0.0-alpha.2</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/knowledgearcdotorg/jsolr-content-plugin/releases/download/3.0.0-alpha.2/plg_jsolr_content.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>alpha</tag>
+        </tags>
+        <targetplatform name="joomla" version="3.[456789]" />
+    </update>
+</updates>
