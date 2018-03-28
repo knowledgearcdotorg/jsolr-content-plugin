@@ -143,12 +143,12 @@ class PlgJSolrContent extends \JSolr\Plugin
             $modified = $created;
         }
 
-        $array['created_tdt'] = $created->format('Y-m-d\TH:i:s\Z', false);
-        $array['modified_tdt'] = $modified->format('Y-m-d\TH:i:s\Z', false);
+        $array['created_dt'] = $created->format('Y-m-d\TH:i:s\Z', false);
+        $array['modified_dt'] = $modified->format('Y-m-d\TH:i:s\Z', false);
 
         $published = JFactory::getDate($source->publish_up);
 
-        $array['date_tdt'] = $published->format('Y-m-d\TH:i:s\Z', false);
+        $array['published_dt'] = $published->format('Y-m-d\TH:i:s\Z', false);
 
         $array["parent_id_i"] = $source->catid;
 
